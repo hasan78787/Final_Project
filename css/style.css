@@ -1,0 +1,236 @@
+
+html {
+  font-family: sans-serif; /* 1 */
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+  
+  
+body {
+background-color: aliceblue;
+}
+
+/* Top wrapper start */
+
+.clearfix{
+overflow:hidden;
+}
+
+.top_wrapper {
+width:960px;
+margin:0 auto;
+height:auto;
+background:#ffff;
+padding:10px 0;
+}
+
+
+.top_logo {
+float: left;
+margin-left: 41px;
+}
+.logo_text{
+    float: left;
+    width: 50%;
+}
+
+.text {
+  float: left;
+  margin-left: 9px;
+}
+
+.text h3{
+color: #a89898;
+}
+.social_icon {
+    width: 50%;
+    float: left;
+	}
+
+.social_icon ul {
+list-style:none;
+margin-left: 110px;
+}
+.social_icon ul li {
+    display: inline;
+	padding: 0px 8px;
+}
+
+.social_icon ul li a {
+}
+
+.social_icon ul li a img {
+height: 30px;
+}
+
+
+.menu_bar ul{
+list-style: none;
+margin-left: 0px;
+}
+
+.menu_bar ul li{
+    display: inline;
+    margin-right: 22px;
+}
+
+.menu_bar ul li a{
+text-decoration: none;
+font-size: 11px;
+color: #a89898;
+text-transform: uppercase;
+}
+
+/* Body wrapper start */
+
+
+.body_wrapper {
+width:960px;
+margin:0 auto;
+height:auto;
+background:#ffff;
+padding:10px 0;
+}
+
+
+.image_1{
+position: relative;
+}
+
+.image_1 img{
+width: 100%;
+}
+
+.image_2{
+position: absolute;
+top: 182px;
+margin-left: 281px;
+}
+
+.image_2 img{
+    width: 500px;
+height: auto;
+margin-top: 62px;
+margin-left: -39px;
+}
+
+.body_text {
+    width: 100%;
+    margin-top: 86px;
+}
+
+.body_text p {
+text-align: center;
+color: #a89898;
+padding: 0px 85px;
+}
+
+.button_1 {
+}
+
+.button_1 button{
+    margin: 17px 0px 25px 400px;
+    margin: 17px 0px 25px 400px;
+    height: 43px;
+    width: 200px;
+    background-color: #2ecc71;
+}
+
+.button_1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+/* Start Welcome */
+
+.welcome_wrapper {
+width:960px;
+margin:0 auto;
+height:auto;
+background:#ffff;
+padding:10px 0;
+}
+
+
+.welcome_text_button {
+    width: 100%;
+    margin-top: 36px;
+    background-color: #464c52;
+    height: 107px;
+}
+
+.welcome_text {
+    width: 50%;
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 31px;
+}
+
+.welcome_text h3{
+}
+
+.welcome_button button{
+	float: left;
+	margin: -48px 0px 0px 586px;
+	height: 36px;
+	width: 182px;
+	background-color: #2ecc71;
+}
+
+
+.welcome_button a{
+   text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* Start Footer */
+
+.footer_wrapper {
+width:960px;
+margin:0 auto;
+height:auto;
+background:#ffff;
+padding:10px 0;
+}
+
+.footer_left {
+width:50%;
+float:left;
+margin-top: 5px;
+}
+
+.footer_left p {
+padding-left: 62px;
+color: #a89898;
+font-size: 11px;
+}
+.footer_right {
+width: 50%;
+float: left;
+margin-top: 11px;
+}
+
+.footer_right ul{
+display:inline;
+margin-left: 100px;
+color: #a89898;
+}
+
+.footer_right ul li {
+    list-style: none;
+    display: inline;
+}
+
+
+.footer_right ul li a{
+	text-decoration: none;
+	color: #a89898;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
